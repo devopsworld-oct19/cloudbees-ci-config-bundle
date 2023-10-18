@@ -96,7 +96,7 @@ kube:
       - emptyDirVolume:
           memory: false
           mountPath: "/var/maven/"
-      yamlMergeStrategy: "override"    
+      yamlMergeStrategy: "override"
 credentials:
   system:
     domainCredentials:
